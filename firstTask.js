@@ -1,138 +1,140 @@
-// //1. Print Basics
-// console.log("Hello, Welcome to JavaScript!")
+//1. Print Basics
+console.log("Hello, Welcome to JavaScript!")
 
-// //2. Comments Practice
-// // This is a comment
+//2. Comments Practice
+// This is a comment
 
-// /*
-// This is a multi-line comment
-// */
-
-
-// //3. Variables Practice
-// let name= "Gokul Raj"
-// const age = "28"
-// console.log(name,age)
-
-// //4. let vs const
-// let firstName= "Gokul Raj"
-// name = "Raj"
-// const age = "28"
-// //age = "29"     Error Shwoing
-// console.log(name,age)
-
-// //5. Camel Case vs Pascal Case
-// let firstName= "Gokul Raj" //camelcase
-
-// function UserName(){ //PascalCase
-//     return firstName;
-// }
-// console.log(UserName())
-
-// //6. Data TypesIdentification
-// let string = "Gokul"
-// let number = 28
-// let boolean = true
-// let nullValue = null
-// let undefinedValue = undefined
-// let arrayValue = [12,13,14,15]
-// let objectValue = {name:"Gokul Raj",age:"28"}
-// let functionValue = function()
-// {
-//     return "Hello from function";
-// }
-
-// console.log(string)
-// console.log(number)
-// console.log(boolean)
-// console.log(nullValue)
-// console.log(undefinedValue)
-// console.log(arrayValue)
-// console.log(objectValue)
-// console.log(functionValue())
+/*
+This is a multi-line comment
+*/
 
 
-// //7. Array Practice
-// let arrayValue = [12,13,14,15]
-// for (i in arrayValue){
-//     console.log(arrayValue[i])
+//3. Variables Practice
+let name1= "Gokul Raj"
+const age1 = 28
+console.log(name1,age1)
 
-// }
+//4. let vs const
+let firstName1= "Gokul Raj"
+firstName1 = "Raj"
+const age2 = "28"
+//age = "29"     Error Showing
+console.log(firstName1,age2)
 
-// //8. Object Practice
-// let UserDetails = {
-//     name: "Gokul Raj",
-//     age: 28,
-//     email: "gokul@gmail.com"
-// }
+//5. Camel Case vs Pascal Case
+let firstName= "Gokul Raj" //camelcase
 
-// console.log(UserDetails.name)
-// console.log(UserDetails["age"])
-// console.log(UserDetails["email"])
+function UserName(){ //PascalCase
+    return firstName;
+}
+console.log(UserName())
 
-// //9. Arithmetic Operators
-// let num1 = 25
-// let num2 = 70
-// let num3 = num1 + num2
-// console.log(num3,num1++,++num2,num2/num1,num1*num3)
+//6. Data TypesIdentification
+let string = "Gokul"
+let number = 28
+let boolean = true
+let nullValue = null
+let undefinedValue = undefined
+let arrayValue1 = [12,13,14,15]
+let objectValue = {name:"Gokul Raj",age:"28"}
+let functionValue = function()
+{
+    return "Hello from function";
+}
 
-// //10. Function Practice
-// function checkValue()
-// {
-//     let val = "Playwright is a powerful tool"
-//     return val
-// }
-// console.log(checkValue())
-
-// //11. Comparison Operators
-// let num = 5
-
-// if (num == "5"){
-//     console.log("Number is 5");
-// }
-// if (num === 5){
-//     console.log("Number is strictly equal to 5");
-// }
-
-// //12. Logical Operators
-// let num = 5
-// console.log(num<=10 && num!=0)
-// console.log(num==5 || num!=0)
-// console.log(!(num==5))
-
-// //13. Conditional Statement (IF):
-// let age = 19
-
-// if (age => 18){
-//     console.log("Eligible to Vote")
-// }
+console.log(string)
+console.log(number)
+console.log(boolean)
+console.log(nullValue)
+console.log(undefinedValue)
+console.log(arrayValue1)
+console.log(objectValue)
+console.log(functionValue())
 
 
-// //14. Conditional Statement (IF-ELSE):
-// let marks = 29
+//7. Array Practice
+let arrayValue2 = ["Sachin","Rohit","Kholi","Jasprit","Pandta","Ishant","Kuldeep","Ashwin"]
+for (i in arrayValue2){
+    console.log(arrayValue2[i])
 
-// if (marks =>40){
-//     console.log("Pass")
-// }
-// else{
-//     console.log("Failed")
-// }
+}
+
+//8. Object Practice
+let UserDetails = {
+    name: "Gokul Raj",
+    age: 28,
+    email: "gokul@gmail.com",
+    place:"Chanei",
+    Skill:"Playwright"
+}
+
+console.log(UserDetails.name)
+console.log(UserDetails["age"])
+console.log(UserDetails["email"])
+console.log(UserDetails["place"])
+console.log(UserDetails["Skill"])
+
+//9. Arithmetic Operators
+let num1 = 25
+let num2 = 70
+let num3 = num1 + num2
+console.log(num3,num1++,++num2,num2/num1,num1*num3)
+
+//10. Function Practice
+function checkValue()
+{
+    let val = "Playwright is a powerful automation tool"
+    return val
+}
+console.log(checkValue())
+
+//11. Comparison Operators
+console.log(5=="5")
+console.log(5==="5")
+//true
+//false
 
 
-// let score = 29
+// 12. Logical Operators
+let num5 = 5
+console.log(num5<=10 && num5!=0)
+console.log(num5==2 || num5!=5)
+console.log(!(num5==5))
 
-// if(score>=90)
-// {
-//     console.log("Grade A")
-// }else if(score>75)
-// {
-//     console.log("Grade B")
+//13. Conditional Statement (IF):
+let age = 19
 
-// }else if(score>50)
-// {
-//     console.log("Grade C")  
-// }
-// else{
-//     console.log("Failed")
-// }
+if (age >= 18){
+    console.log("Eligible to Vote")
+}
+
+
+//14. Conditional Statement (IF-ELSE):
+let marks = 29
+
+if (marks >=40){
+    console.log("Pass")
+}
+else{
+    console.log("Failed")
+}
+
+
+let score = 75
+
+
+if(score>=90)
+{
+    console.log("Grade A")
+}else if(score>=75)
+{
+    console.log("Grade B")
+
+}else if(score>=50)
+{
+    console.log("Grade C")  
+}
+else{
+    console.log("Failed")
+}
 

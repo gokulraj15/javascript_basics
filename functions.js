@@ -1,19 +1,19 @@
-// //hoisted
-// firstValue()
-// function firstValue()
-// {
-//     console.log("firstValue");
-// }
+//hoisted
+firstValue()
+function firstValue()
+{
+    console.log("firstValue");
+}
 
 
-// //Not fully hoisted -- means we cant call that function stating stage
+//Not fully hoisted -- means we cant call that function stating stage
 
-// const firstValue = function()
-// {
-//     console.log("firstValue");
-// }
+const firstValue = function()
+{
+    console.log("firstValue");
+}
 
-// firstValue()
+firstValue()
 
 
 const secondValue = () =>

@@ -246,3 +246,22 @@
 
 // // Question: Does slice() change original array? - No it doesn't affect original array
 
+// // 18. total number of elements
+
+// const tools = ["cypress", "playwright", "selenium“,'testcafe', 'webdriverion"]
+// console.log(tools.length+1)
+
+// // 19. Merge all names into one array and print it
+// const teamA = ["Rahul", "Arjun"]
+// const teamB = ["Kiran", "Vikram"]
+// const teamC = ["Sneha", "Divya"]
+
+// const result3 = teamA.concat(teamB,teamC)
+// console.log(result3)
+
+// // 20. Add " Language" to each item
+
+// const languages = ["JavaScript", "Python", "Java"]
+
+// const result4 = languages.map(temp =>temp + " Language")
+// console.log(result4)

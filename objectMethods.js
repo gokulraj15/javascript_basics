@@ -18,7 +18,7 @@ for (const key_value in tool)
     console.log(tool[key_value])
     //Undefined - console.log(tool.key). - Undefined
 }
-Not Working { for of }
+// Not Working { for of }
 for (const key_value of tool)
 {
     console.log(tool[key_value])
