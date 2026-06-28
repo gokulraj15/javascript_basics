@@ -3,7 +3,7 @@
 // const tool = {
 //     name : "playwright",
 //     age :6,
-//     comapny:"microsoft",
+//     company:"microsoft",
 //     country:"India"
 // }
 
@@ -11,7 +11,6 @@
 // const {age} = tool
 
 // console.log(name)
-
 
 
 const tool = {

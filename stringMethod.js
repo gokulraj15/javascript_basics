@@ -15,6 +15,6 @@
 // console.log(name.startsWith("Auto"))
 
 
-// const name = "Automation"
-// console.log(name.split('').reverse().join(''))
-// console.log(name.split('a'))
+const name = "Automation"
+console.log(name.split('').reverse().join(''))
+console.log(name.split(''))
